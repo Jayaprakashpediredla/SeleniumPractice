@@ -1,0 +1,13 @@
+{
+  "name": "Java Maven Codespace",
+  "image": "mcr.microsoft.com/vscode/devcontainers/java:0-11",
+  "settings": {
+    "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk1.8.0_361",
+    "java.configuration.updateBuildConfiguration": "automatic"
+  },
+  "extensions": [
+    "vscjava.vscode-java-pack",
+    "vscjava.vscode-maven"
+  ],
+  "postCreateCommand": "mvn clean install"
+}
